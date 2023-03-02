@@ -1,0 +1,112 @@
+/* ini selector tag */
+p{
+    color: white;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+}
+body{
+background-color: darkturquoise;
+/* background-image: url('../img/profil.jpg');
+background-size: 100% ; */
+background-repeat: no-repeat;
+}
+/* grouping css */
+
+fieldset, legend{
+    border: yellow groove 3px;
+    border-radius: 30px;
+}
+legend{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+table{
+    border: 10px;
+    margin: auto;
+}
+/* psudo element id dan class */
+div#menu {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+a.item:link, a.item:visited, a.item:active{
+ text-decoration: none;
+ font-size: 16pt;   
+ color: yellow;
+ border: 2px solid yellow;
+ padding: 10px;
+ background-color: black;
+ /* display: block;
+ width: 20%; */
+ 
+
+}
+a.item:hover{
+    text-decoration: none;
+    font-size: 14pt;
+    color: white;
+    border: 2px solid greenyellow;
+    padding: 15px;
+    background-color: yellowgreen;
+}
+li.menu{
+    color:blue;
+}
+h1{
+    text-shadow: 3px 3px yellow;
+    color: yellow;
+}
+.content {
+    font: 15px/20px georgia, serif;
+    text-align: justify;
+}
+.content h2 {
+    font: bold 20px sans-serif;
+    margin-bottom: 10px ;
+}
+.content .author {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.content p {
+    padding-bottom: 10px;
+}
+.content ul {
+    padding-bottom: 15px;
+}
+.content a {
+    text-decoration: none;
+    color: darkblue;
+}
+.article1 {
+    width: 420px;
+    float: left;
+    padding: 25px 15px 15px 25px;
+    border: yellow groove 3px;
+}
+.article2 {
+    width: 420px;
+    float: left;
+    padding: 25px 15px 15px 15px;
+    border: yellow groove 3px;
+}
+.sidebar {
+    width: 350px;
+    float: left;
+    padding: 25px 25px 15px 15px;
+    border: yellow groove 3px;
+}
+.footer {
+    width: 100%;
+    float: left;
+    padding: 25px 25px 15px 15px;
+    border: yellow groove 3px;
+}
+
+/* #atas,#bawah {
+    text-align: right;
+} */
